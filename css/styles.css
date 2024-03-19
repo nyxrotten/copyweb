@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.lineaMenu {
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(97deg, rgba(237,135,69,1) 16%, rgba(255,39,56,1) 74%, rgba(163,69,237,1) 100%);
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+
+.menu li a {
+    color: black
+}
+
+.menu li a:hover {
+    color: grey;
+}
+
+.menu li {
+    padding: 0px 8px;
+}
+
+.menu li:first-child {
+    font-size: 1.2rem;
+    margin-top: -3px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 25px 50px;
+    width: 100%;
+}
+
+.searchPackages {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.searchPackages img {
+    width: 70px;
+    margin-right: 15px;
+}
+
+
+#buscador {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.404);
+    font-family: 'Fira Mono';
+}
+
+#buscadorButton {
+    height: 50px;
+    width: 150px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.sign button {
+    height: 50px;
+    width: 110px;
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+    background-color: white;
+    border: 1px solid rgba(122, 122, 122, 0.404);
+    font-weight: 500;
+}
+.up {
+    margin-left: 30px;
+}
+.sign button:last-child {
+    border: none;
+}
+
+
+main {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada {
+    background-image: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%,
+    rgba(176, 42, 42, .56) 18.45%, rgba(176, 42, 42, .8) 49.67%,
+    rgba(176, 42, 42, .56) 82.52%, rgba(176, 42, 42, .196364) 99.7%,
+    rgba(189, 40, 40, 0) 99.71%, rgba(203, 56, 55, 0) 99.72%,
+    rgba(203, 56, 55, .16) 99.73%),url("/assets/img/backgoundcolours.png");
+    width: 100%;
+    height: 800px;
+    padding-top: 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portada div {
+    max-width: 520px;
+    margin-bottom: 40px;
+}
+
+.portada div:first-child {
+    max-width: 600px;
+    margin-top: 60px;
+}
+
+.portada div:nth-child(4) {
+    margin-bottom: 60px;
+}
+
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6rem;
+}
+
+h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.divbuttons {
+    display: flex;
+    column-gap: 30px;
+}
+
+.free {
+    background-color: #ffc329;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.452);
+    color: black;
+    padding: 16px 56px;
+}
+
+.pro {
+    background-color:#cb3837;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 16px 56px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+    color: black;
+    max-width: 525px;
+}
+
+.description img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 35px;
+}
+
+.description h2 {
+    font-size: 2.25rem;
+    line-height: 2.8rem;
+    margin-bottom: 35px;
+
+}
+
+.description p {
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 150px;
+}
+
+footer {
+    border-top: 1px solid  rgba(122, 122, 122, 0.404);
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 70px 0px 100px 0px;
+}
+
+footer a {
+    color: black;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 25px;
+    flex-grow: 1;
+}
+
+#logoNpm {
+    width: 65px;
+}
+
+#logoGit {
+    width: 55px;
+}
+
+.support, .company, .terms {
+    list-style: none;
+    flex-grow: 3;
+    line-height: 2.5rem;
+
+}
+
+footer ul li:first-child {
+    font-weight: 700;
+}
+
+@media (max-width: 1270px) {
+   .searchPackages {
+    width: 70%;
+   } 
+}
+
+@media (max-width: 848px) {
+    .searchPackages {
+     width: 60%;
+    } 
+ }
+
+ @media (max-width: 700px) {
+    .search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .sign {
+        width: 100px;
+    }
+
+    .in {
+        margin-left: 25px;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .search {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .searchPackages {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: -35px;
+        align-items: flex-start;
+    }
+
+    #buscador {
+        width: 50%;
+    }
+    .sign {
+        display: flex;
+        flex: row;
+        justify-content: flex-start;
+        margin-left: 50px;
+        width: 300px;
+
+    }
+
+    .up {
+        margin-left: 0;
+    }
+
+    .sign button:last-child {
+        background-color: white;
+        border: 1px solid rgba(122, 122, 122, 0.404);
+        margin-left: -1px;
+    }
+
+    .lineaMenu {
+        width: 120%;
+    }
+
+    .portada {
+        width: 120%;
+        height: 1000px;
+        margin-left: 30px;
+    }
+
+    .portada div {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .portada div:first-child {
+        margin-top: 20px;
+    }
+
+    .divbuttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .portada div:nth-child(4) {
+        margin-bottom: 30px;
+    }
+
+    .description {
+        margin-left: 30px;
+    }
+
+    h1 {
+        margin-left: -20px;
+    }
+
+    footer {
+        margin-left: 30px;
+        padding-top: 5px;
+        flex-direction: column;
+    }
+
+    .logos {
+        flex-direction: row;
+        padding: 0px;
+    }
+}
