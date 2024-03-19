@@ -257,6 +257,27 @@ footer ul li:first-child {
     font-weight: 700;
 }
 
+.bubble {
+    width: 120px;
+    height: 120px;
+    font-size: 5rem;
+    background-color: #70098a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.bubble:hover {
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.274);
+    background-color: green;
+}
+
 @media (max-width: 1270px) {
    .searchPackages {
     width: 70%;
